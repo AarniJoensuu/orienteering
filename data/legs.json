@@ -1,0 +1,52 @@
+{
+  "competitions": [
+    {
+      "year": 2018,
+      "legs": [
+        "Matias Jokinen",
+        "Laura Reuna",
+        "Liisa Nokelainen",
+        "Paula Kosonen",
+        "Aarni Joensuu",
+        "Niilo Rannikko",
+        "Vili Sipilä"
+      ]
+    },
+    {
+      "year": 2019,
+      "legs": [
+        "Liisa Nokelainen",
+        "Vili Sipilä",
+        "Matias Jokinen",
+        "Niilo Rannikko",
+        "Paula Kosonen",
+        "Laura Reuna",
+        "Aarni Joensuu"
+      ]
+    },
+    {
+      "year": 2021,
+      "legs": [
+        "Vili Sipilä",
+        "Aarni Joensuu",
+        "Matias Jokinen",
+        "Laura Reuna",
+        "Paula Kosonen",
+        "Niilo Rannikko",
+        "Liisa Nokelainen"
+      ]
+    },
+    {
+      "year": 2022,
+      "legs": [
+        "Vili Sipilä",
+        "Matias Jokinen",
+        "Aarni Joensuu",
+        "Niilo Rannikko",
+        "Laura Reuna",
+        "Paula Kosonen",
+        "Liisa Nokelainen"
+      ]
+    }
+  ]
+}
