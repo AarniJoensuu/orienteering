@@ -1,5 +1,6 @@
 mod data_handling;
 mod formatting;
+mod util;
 use data_handling::read_data::{read_leg_data};
 use data_handling::leg_configurations::{get_one_new_legs_configuration};
 use formatting::output::{output_leg_configuration};

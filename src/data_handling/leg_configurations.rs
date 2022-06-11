@@ -66,3 +66,67 @@ fn allocate_athlete_for_one_leg(
   }
   return possible_athletes_for_leg.choose(&mut rand::thread_rng()).unwrap().to_string();
 }
+
+#[cfg(test)]
+mod leg_configuration_tests
+{
+  use crate::data_handling::leg_configurations::{get_one_new_legs_configuration};
+  use crate::data_handling::models::{ManyYearsLegs};
+  use crate::data_handling::read_data::{read_leg_data};
+  use crate::util::utility_functions::{has_unique_elements};
+
+  #[test]
+  fn no_overlapping_legs()
+  {
+    let data: ManyYearsLegs = read_leg_data("./data/legs.json");
+    let mut athletes_per_leg: Vec<Vec<String>> = Vec::new();
+
+    for i in 0..7
+    {
+      let mut leg_history: Vec<String> = Vec::new();
+      for j in 0..data.competitions.len()
+      {
+        leg_history.push(data.competitions[j].legs[i].clone());
+      }
+      athletes_per_leg.push(leg_history);
+    }
+
+    let mut deduped_athletes_per_leg: Vec<Vec<String>> = Vec::new();
+    for mut leg in athletes_per_leg
+    {
+      leg.sort_unstable();
+      leg.dedup();
+      deduped_athletes_per_leg.push(leg.clone());
+    }
+
+    let mut generated_leg_data: Vec<Vec<String>> = Vec::new();
+    for _ in 0..100
+    {
+      generated_leg_data.push(get_one_new_legs_configuration(data.competitions.clone()));
+    }
+
+    for i in 0..7
+    {
+      for test_data_point in &generated_leg_data
+      {
+        let test_data_athlete: String = test_data_point[i].clone();
+        assert!(!deduped_athletes_per_leg[i].contains(&test_data_athlete));
+      }
+    }
+  }
+
+  #[test]
+  fn no_duplicates()
+  {
+    let data: ManyYearsLegs = read_leg_data("./data/legs.json");
+    let mut generated_leg_data: Vec<Vec<String>> = Vec::new();
+    for _ in 0..100
+    {
+      generated_leg_data.push(get_one_new_legs_configuration(data.competitions.clone()));
+    }
+    for data_point in &generated_leg_data
+    {
+      assert!(has_unique_elements(data_point));
+    }
+  }
+}
