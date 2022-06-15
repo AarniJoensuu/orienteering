@@ -1,0 +1,205 @@
+[
+  {
+    "athlete": "Aarni Joensuu",
+    "performances": [
+      {
+        "year": 2018,
+        "leg": 5,
+        "legDistance": 8.7,
+        "h": 2,
+        "m": 8,
+        "s": 32
+      },
+      {
+        "year": 2019,
+        "leg": 7,
+        "legDistance": 12.8,
+        "h": 2,
+        "m": 6,
+        "s": 56
+      },
+      {
+        "year": 2021,
+        "leg": 2,
+        "legDistance": 13.0,
+        "h": 2,
+        "m": 7,
+        "s": 54
+      }
+    ]
+  },
+  {
+    "athlete": "Matias Jokinen",
+    "performances": [
+      {
+        "year": 2018,
+        "leg": 1,
+        "legDistance": 11.0,
+        "h": 2,
+        "m": 9,
+        "s": 44
+      },
+      {
+        "year": 2019,
+        "leg": 3,
+        "legDistance": 13.1,
+        "h": 2,
+        "m": 29,
+        "s": 44
+      },
+      {
+        "year": 2021,
+        "leg": 3,
+        "legDistance": 16.4,
+        "h": 3,
+        "m": 30,
+        "s": 48
+      }
+    ]
+  },
+  {
+    "athlete": "Paula Kosonen",
+    "performances": [
+      {
+        "year": 2018,
+        "leg": 4,
+        "legDistance": 8.8,
+        "h": 3,
+        "m": 30,
+        "s": 7
+      },
+      {
+        "year": 2019,
+        "leg": 5,
+        "legDistance": 7.7,
+        "h": 1,
+        "m": 53,
+        "s": 50
+      },
+      {
+        "year": 2021,
+        "leg": 5,
+        "legDistance": 8.9,
+        "h": 1,
+        "m": 38,
+        "s": 21
+      }
+    ]
+  },
+  {
+    "athlete": "Liisa Nokelainen",
+    "performances": [
+      {
+        "year": 2018,
+        "leg": 3,
+        "legDistance": 12.7,
+        "h": 2,
+        "m": 41,
+        "s": 53
+      },
+      {
+        "year": 2019,
+        "leg": 1,
+        "legDistance": 10.7,
+        "h": 1,
+        "m": 45,
+        "s": 6
+      },
+      {
+        "year": 2021,
+        "leg": 7,
+        "legDistance": 16.7,
+        "h": 2,
+        "m": 16,
+        "s": 22
+      }
+    ]
+  },
+  {
+    "athlete": "Niilo Rannikko",
+    "performances": [
+      {
+        "year": 2018,
+        "leg": 6,
+        "legDistance": 10.8,
+        "h": 2,
+        "m": 7,
+        "s": 23
+      },
+      {
+        "year": 2019,
+        "leg": 4,
+        "legDistance": 7.2,
+        "h": 1,
+        "m": 36,
+        "s": 36
+      },
+      {
+        "year": 2021,
+        "leg": 6,
+        "legDistance": 11.0,
+        "h": 1,
+        "m": 51,
+        "s": 26
+      }
+    ]
+  },
+  {
+    "athlete": "Laura Reuna",
+    "performances": [
+      {
+        "year": 2018,
+        "leg": 2,
+        "legDistance": 11.9,
+        "h": 3,
+        "m": 53,
+        "s": 55
+      },
+      {
+        "year": 2019,
+        "leg": 6,
+        "legDistance": 11.0,
+        "h": 2,
+        "m": 38,
+        "s": 44
+      },
+      {
+        "year": 2021,
+        "leg": 4,
+        "legDistance": 8.8,
+        "h": 1,
+        "m": 51,
+        "s": 4
+      }
+    ]
+  },
+  {
+    "athlete": "Vili Sipilä",
+    "performances": [
+      {
+        "year": 2018,
+        "leg": 7,
+        "legDistance": 15.1,
+        "h": 2,
+        "m": 19,
+        "s": 39
+      },
+      {
+        "year": 2019,
+        "leg": 2,
+        "legDistance": 10.4,
+        "h": 1,
+        "m": 39,
+        "s": 18
+      },
+      {
+        "year": 2021,
+        "leg": 1,
+        "legDistance": 13.1,
+        "h": 1,
+        "m": 47,
+        "s": 4
+      }
+    ]
+  }
+]
