@@ -8,7 +8,9 @@
         "legDistance": 8.7,
         "h": 2,
         "m": 8,
-        "s": 32
+        "s": 32,
+        "placementInOwnLeg": 1405,
+        "placementChange": -40
       },
       {
         "year": 2019,
@@ -16,7 +18,9 @@
         "legDistance": 12.8,
         "h": 2,
         "m": 6,
-        "s": 56
+        "s": 56,
+        "placementInOwnLeg": 786,
+        "placementChange": -93
       },
       {
         "year": 2021,
@@ -24,7 +28,19 @@
         "legDistance": 13.0,
         "h": 2,
         "m": 7,
-        "s": 54
+        "s": 54,
+        "placementInOwnLeg": 487,
+        "placementChange": 13
+      },
+      {
+        "year": 2022,
+        "leg": 3,
+        "legDistance": 14.9,
+        "h": 2,
+        "m": 13,
+        "s": 50,
+        "placementInOwnLeg": 728,
+        "placementChange": 22
       }
     ]
   },
@@ -37,7 +53,9 @@
         "legDistance": 11.0,
         "h": 2,
         "m": 9,
-        "s": 44
+        "s": 44,
+        "placementInOwnLeg": 1609,
+        "placementChange": -36
       },
       {
         "year": 2019,
@@ -45,7 +63,9 @@
         "legDistance": 13.1,
         "h": 2,
         "m": 29,
-        "s": 44
+        "s": 44,
+        "placementInOwnLeg": 1362,
+        "placementChange": 254
       },
       {
         "year": 2021,
@@ -53,7 +73,19 @@
         "legDistance": 16.4,
         "h": 3,
         "m": 30,
-        "s": 48
+        "s": 48,
+        "placementInOwnLeg": 705,
+        "placementChange": 152
+      },
+      {
+        "year": 2022,
+        "leg": 2,
+        "legDistance": 11.7,
+        "h": 2,
+        "m": 1,
+        "s": 21,
+        "placementInOwnLeg": 936,
+        "placementChange": 243
       }
     ]
   },
@@ -66,7 +98,9 @@
         "legDistance": 8.8,
         "h": 3,
         "m": 30,
-        "s": 7
+        "s": 7,
+        "placementInOwnLeg": 1759,
+        "placementChange": 13
       },
       {
         "year": 2019,
@@ -74,7 +108,9 @@
         "legDistance": 7.7,
         "h": 1,
         "m": 53,
-        "s": 50
+        "s": 50,
+        "placementInOwnLeg": 1219,
+        "placementChange": 46
       },
       {
         "year": 2021,
@@ -82,7 +118,19 @@
         "legDistance": 8.9,
         "h": 1,
         "m": 38,
-        "s": 21
+        "s": 21,
+        "placementInOwnLeg": 461,
+        "placementChange": -49
+      },
+      {
+        "year": 2022,
+        "leg": 6,
+        "legDistance": 14.4,
+        "h": 2,
+        "m": 55,
+        "s": 19,
+        "placementInOwnLeg": 1063,
+        "placementChange": 23
       }
     ]
   },
@@ -95,7 +143,9 @@
         "legDistance": 12.7,
         "h": 2,
         "m": 41,
-        "s": 53
+        "s": 53,
+        "placementInOwnLeg": 1514,
+        "placementChange": -61
       },
       {
         "year": 2019,
@@ -103,7 +153,9 @@
         "legDistance": 10.7,
         "h": 1,
         "m": 45,
-        "s": 6
+        "s": 6,
+        "placementInOwnLeg": 895,
+        "placementChange": -676
       },
       {
         "year": 2021,
@@ -111,7 +163,19 @@
         "legDistance": 16.7,
         "h": 2,
         "m": 16,
-        "s": 22
+        "s": 22,
+        "placementInOwnLeg": 265,
+        "placementChange": -67
+      },
+      {
+        "year": 2022,
+        "leg": 7,
+        "legDistance": 16.8,
+        "h": 2,
+        "m": 20,
+        "s": 10,
+        "placementInOwnLeg": 496,
+        "placementChange": -100
       }
     ]
   },
@@ -124,7 +188,9 @@
         "legDistance": 10.8,
         "h": 2,
         "m": 7,
-        "s": 23
+        "s": 23,
+        "placementInOwnLeg": 1253,
+        "placementChange": -57
       },
       {
         "year": 2019,
@@ -132,7 +198,9 @@
         "legDistance": 7.2,
         "h": 1,
         "m": 36,
-        "s": 36
+        "s": 36,
+        "placementInOwnLeg": 1054,
+        "placementChange": 11
       },
       {
         "year": 2021,
@@ -140,7 +208,19 @@
         "legDistance": 11.0,
         "h": 1,
         "m": 51,
-        "s": 26
+        "s": 26,
+        "placementInOwnLeg": 524,
+        "placementChange": 5
+      },
+      {
+        "year": 2022,
+        "leg": 4,
+        "legDistance": 8.7,
+        "h": 2,
+        "m": 10,
+        "s": 21,
+        "placementInOwnLeg": 1233,
+        "placementChange": 210
       }
     ]
   },
@@ -153,7 +233,9 @@
         "legDistance": 11.9,
         "h": 3,
         "m": 53,
-        "s": 55
+        "s": 55,
+        "placementInOwnLeg": 1821,
+        "placementChange": 185
       },
       {
         "year": 2019,
@@ -161,7 +243,9 @@
         "legDistance": 11.0,
         "h": 2,
         "m": 38,
-        "s": 44
+        "s": 44,
+        "placementInOwnLeg": 1478,
+        "placementChange": 61
       },
       {
         "year": 2021,
@@ -169,7 +253,19 @@
         "legDistance": 8.8,
         "h": 1,
         "m": 51,
-        "s": 4
+        "s": 4,
+        "placementInOwnLeg": 671,
+        "placementChange": 6
+      },
+      {
+        "year": 2022,
+        "leg": 5,
+        "legDistance": 9.3,
+        "h": 2,
+        "m": 13,
+        "s": 10,
+        "placementInOwnLeg": 1115,
+        "placementChange": 75
       }
     ]
   },
@@ -182,7 +278,9 @@
         "legDistance": 15.1,
         "h": 2,
         "m": 19,
-        "s": 39
+        "s": 39,
+        "placementInOwnLeg": 785,
+        "placementChange": -78
       },
       {
         "year": 2019,
@@ -190,7 +288,9 @@
         "legDistance": 10.4,
         "h": 1,
         "m": 39,
-        "s": 18
+        "s": 18,
+        "placementInOwnLeg": 645,
+        "placementChange": -180
       },
       {
         "year": 2021,
@@ -198,7 +298,19 @@
         "legDistance": 13.1,
         "h": 1,
         "m": 47,
-        "s": 4
+        "s": 4,
+        "placementInOwnLeg": 412,
+        "placementChange": -565
+      },
+      {
+        "year": 2022,
+        "leg": 1,
+        "legDistance": 13.9,
+        "h": 1,
+        "m": 35,
+        "s": 15,
+        "placementInOwnLeg": 318,
+        "placementChange": -154
       }
     ]
   }
