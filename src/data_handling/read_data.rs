@@ -1,4 +1,4 @@
-use crate::data_handling::models::{ManyYearsLegs};
+use crate::data_handling::models::{ManyYearsLegs, AthletePerformances};
 use std::fs::{read_to_string};
 
 pub fn read_leg_data(path: &str) -> ManyYearsLegs
@@ -6,6 +6,13 @@ pub fn read_leg_data(path: &str) -> ManyYearsLegs
   let data = read_to_string(path).expect("Unable to read file");
   let json: ManyYearsLegs = serde_json::from_str(&data)
     .expect("incorrect format");
+  return json;
+}
+
+pub fn read_performance_data(path: &str) -> Vec<AthletePerformances>
+{
+  let data = read_to_string(path).expect("Unable to find file");
+  let json: Vec<AthletePerformances> = serde_json::from_str(&data).expect("incorrect format");
   return json;
 }
 
