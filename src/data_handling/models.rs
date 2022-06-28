@@ -30,6 +30,6 @@ pub struct Performance
 #[derive(Serialize, Deserialize, Debug, Clone)]
 pub struct AthletePerformances
 {
-  athlete: String,
+  pub athlete: String,
   performances: Vec<Performance>
 }

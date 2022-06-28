@@ -1,8 +1,10 @@
 use crate::data_handling::models::{AthletePerformances};
-use crate::data_handling::read_data::{read_athlete_data};
 
-pub fn read_athlete_data(String athlete_name, &str filename) -> 
+pub fn read_athlete_data(athlete_name: &str, all_performances: &[AthletePerformances]) -> AthletePerformances
 {
-  all_performances: Vec<AthletePerformances> = read_athlete_data(athlete_name, filename);
-  println!("{:?}", all_performances);
+  let mut iter = all_performances.into_iter();
+  iter
+    .find(|&x| x.athlete.to_lowercase().contains(&athlete_name.to_lowercase()))
+    .unwrap()
+    .clone()
 }
