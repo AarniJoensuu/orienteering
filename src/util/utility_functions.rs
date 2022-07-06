@@ -1,5 +1,6 @@
 use std::collections::HashSet;
 use std::hash::Hash;
+use std::option::{Option};
 
 #[allow(dead_code)]
 pub fn has_unique_elements<T>(iter: T) -> bool
@@ -9,6 +10,11 @@ where
 {
   let mut unique = HashSet::new();
   iter.into_iter().all(move |x| unique.insert(x))
+}
+
+pub fn parse_str_to_int(value: Option<&str>) -> u32
+{
+  return value.unwrap().to_owned().parse::<u32>().unwrap();
 }
 
 #[cfg(test)]

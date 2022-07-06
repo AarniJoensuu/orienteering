@@ -13,7 +13,7 @@ pub struct ManyYearsLegs
   pub competitions: Vec<OneYearLegs>
 }
 
-#[derive(Serialize, Deserialize, Debug, Clone)]
+#[derive(Serialize, Deserialize, Debug, Copy, Clone)]
 #[serde(rename_all = "camelCase")]
 pub struct Performance
 {
@@ -31,5 +31,5 @@ pub struct Performance
 pub struct AthletePerformances
 {
   pub athlete: String,
-  performances: Vec<Performance>
+  pub performances: Vec<Performance>
 }
