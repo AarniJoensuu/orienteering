@@ -52,7 +52,7 @@ fn main()
     // filter by year
     if year_provided
     {
-      let year: u32 = parse_str_to_int(matches.value_of("year"));
+      let year: u32 = parse_str_to_int(matches.value_of("year").unwrap());
       performances_data = filter_all_performances_data_by_year(performances_data, year);
     }
     println!("{:#?}", performances_data);
@@ -65,7 +65,7 @@ fn main()
     // filter by year
     if year_provided
     {
-      let year: u32 = parse_str_to_int(matches.value_of("year"));
+      let year: u32 = parse_str_to_int(matches.value_of("year").unwrap());
       performance_data = filter_all_performances_data_by_year(performance_data, year);
     }
     println!("{:#?}", read_athlete_data(athlete, &performance_data));
