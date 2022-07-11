@@ -1,24 +1,46 @@
-use crate::data_handling::models::{AthletePerformances};
+use crate::data_handling::models::{AthletePerformances, Performance};
 
-pub fn filter_all_performances_data_by_year(
-  all_performances: Vec<AthletePerformances>,
+pub fn filter_performances_by_year(
+  performances: Vec<AthletePerformances>,
   year: u32) -> Vec<AthletePerformances>
+{
+  let mut performances_of_year: Vec<AthletePerformances> = Vec::new();
+  for athlete_performances in performances
   {
-    let mut performances_of_year: Vec<AthletePerformances> = Vec::new();
-    let all_performances_iter = all_performances.into_iter();
-    for athlete_performances in all_performances_iter
+    let athlete = athlete_performances.athlete;
+    let mut performance_of_year: Vec<Performance> = Vec::new();
+    for performance in athlete_performances.performances
     {
-      let athlete: String = athlete_performances.athlete;
-      let athlete_performance = athlete_performances
-        .performances
-        .iter()
-        .position(|&x| x.year == year)
-        .unwrap();
-      let athlete_performance_of_one_year: AthletePerformances = AthletePerformances {
-        athlete: athlete,
-        performances: vec![athlete_performances.performances[athlete_performance]]
-      };
-      performances_of_year.push(athlete_performance_of_one_year);
+      if performance.year == year
+      {
+        performance_of_year.push(performance);
+        performances_of_year.push(
+          AthletePerformances {
+            athlete: athlete,
+            performances: performance_of_year
+          }
+        );
+        break;
+      }
     }
-    return performances_of_year;
   }
+  return performances_of_year;
+}
+
+pub fn filter_performances_by_athlete_name(
+  performances: Vec<AthletePerformances>,
+  athlete_name: &str) -> Vec<AthletePerformances>
+{
+  let mut performances_of_athletes: Vec<AthletePerformances> = Vec::new();
+  for performance in performances
+  {
+    if performance
+      .athlete
+      .to_lowercase()
+      .contains(&String::from(athlete_name).to_lowercase())
+    {
+      performances_of_athletes.push(performance);
+    }
+  }
+  return performances_of_athletes;
+}
